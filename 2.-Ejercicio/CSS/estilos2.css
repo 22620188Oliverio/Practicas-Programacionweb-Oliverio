@@ -1,0 +1,33 @@
+h1 {
+    padding-left: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: red;
+    background-color: blue;
+}
+
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    color: red;
+    background-color: green;
+    border-radius: 30px;
+    padding-left: 15px;
+}
+
+.parrafo-principal{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: rgb(0, 30, 55);
+}
+.imagenes{
+    width: 250px;
+    height: 250px;
+    border-radius: 30px;
+}
+
+main{
+    color: BLACK;
+    padding: 20px;
+    border-radius: 30px;
+}
