@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="CSS/estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <h1 class="title">Datos personales</h1>
+    <form action="/submit" method="post" class="form">
+        <label for="name">Nombre</label>
+        <input type="text" name="name" id="name" required><br><br>
+
+        <label for="email">Correo electrónico</label>
+        <input type="email" name="email" id="email" required><br><br>
+
+        <label for="city">Ciudad</label>
+        <select name="city" id="city">
+            <option value="putla">Putla</option>
+            <option value="tlaxiaco">Tlaxiaco</option>
+            <option value="Huajuapan">Huajuapan</option>
+        </select><br><br>
+        <button class="btn"><i class="fa-solid fa-paper-plane"></i> Enviar</button>
+    </form>
+</body>
+</html>
